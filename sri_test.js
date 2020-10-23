@@ -1,3 +1,3 @@
 var sri_test = {
-	val : "VALIDATE"
+	val : "SRI checked out, JS file loaded fine!"
 };

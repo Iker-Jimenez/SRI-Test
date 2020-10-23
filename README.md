@@ -7,7 +7,7 @@ Subresource Integrity Testing
 
 # To Run
 
-    python -m http.serverr
+    python -m http.server
 
 - Open sri_test_good.html to see how SRI validation checks out.
 
@@ -15,9 +15,10 @@ Subresource Integrity Testing
 
 # Generating integrity values
 
-In `srgen.py` you can just edit the `with open('sri_test.js', 'rb') as f:` line replacing `sri_test.js` with your file name.
+From a terminal call `sri_gen.py` with your file name as:
+    ./sri_gen.py -i your_file.js
 
-Then in a console execute `python sri_gen.py` and plave the resulting string an `integrity` element like so
+Place the resulting string in an `integrity` element like so
 
 `<script src="your_file.js" crossorigin="anonymous" integrity="sha384-BLAH.BLAH="/>`
 

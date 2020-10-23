@@ -16,6 +16,7 @@ Subresource Integrity Testing
 # Generating integrity values
 
 From a terminal call `sri_gen.py` with your file name as:
+
     ./sri_gen.py -i your_file.js
 
 Place the resulting string in an `integrity` element like so

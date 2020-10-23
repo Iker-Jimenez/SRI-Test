@@ -9,8 +9,9 @@ Subresource Integrity Testing
 
     python -m http.serverr
 
-Open sri_test_good.html to see how SRI validation checks out.
-Open sri_test_bad.html to see SRI validation fail. Check your browser console for the error message.
+- Open sri_test_good.html to see how SRI validation checks out.
+
+- Open sri_test_bad.html to see SRI validation fail. *Check your browser console* for the error message.
 
 # Generating integrity values
 
